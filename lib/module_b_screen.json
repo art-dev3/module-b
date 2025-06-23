@@ -6,7 +6,7 @@
         "type": "Text",
         "data": "My Credit Card"
       },
-      "backgroundColor": "#9FA8DA"
+      "backgroundColor": "0xFF9FA8DA"
     },
     "body": {
       "type": "Center",
@@ -21,7 +21,7 @@
           "bottom": 20
         },
         "decoration": {
-          "color": "#303F9F",
+          "color": "0xFF303F9F",
           "borderRadius": 16
         },
         "child": {
@@ -33,16 +33,16 @@
               "type": "Text",
               "data": "CREDIT CARD",
               "style": {
-                "color": "#BDBDBD",
+                "color": "0xFFBDBDBD",
                 "fontSize": 16,
-                "fontWeight": "w500"
+                "fontWeight": "bold"
               }
             },
             {
               "type": "Text",
               "data": "1234 5678 9012 3456",
               "style": {
-                "color": "#FFFFFF",
+                "color": "0xFFFFFFFF",
                 "fontSize": 22,
                 "letterSpacing": 2
               }
@@ -59,7 +59,7 @@
                       "type": "Text",
                       "data": "CARDHOLDER",
                       "style": {
-                        "color": "#B0BEC5",
+                        "color": "0xFFB0BEC5",
                         "fontSize": 12
                       }
                     },
@@ -67,7 +67,7 @@
                       "type": "Text",
                       "data": "JANE DOE",
                       "style": {
-                        "color": "#FFFFFF",
+                        "color": "0xFFFFFFFF",
                         "fontSize": 14
                       }
                     }
@@ -81,7 +81,7 @@
                       "type": "Text",
                       "data": "EXPIRES",
                       "style": {
-                        "color": "#B0BEC5",
+                        "color": "0xFFB0BEC5",
                         "fontSize": 12
                       }
                     },
@@ -89,7 +89,7 @@
                       "type": "Text",
                       "data": "08/27",
                       "style": {
-                        "color": "#FFFFFF",
+                        "color": "0xFFFFFFFF",
                         "fontSize": 14
                       }
                     }
