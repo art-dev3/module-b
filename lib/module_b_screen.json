@@ -1,105 +1,104 @@
 {
-    "type": "Scaffold",
-    "appBar": {
-      "type": "AppBar",
-      "title": {
-        "type": "Text",
-        "data": "My Credit Card"
-      },
-      "backgroundColor": "0xFF9FA8DA"
+  "type": "Scaffold",
+  "appBar": {
+    "type": "AppBar",
+    "title": {
+      "type": "Text",
+      "data": "My Credit Card"
     },
-    "body": {
-      "type": "Center",
+    "backgroundColor": "#9FA8DA"
+  },
+  "body": {
+    "type": "Center",
+    "child": {
+      "type": "Container",
+      "width": 320,
+      "height": 200,
+      "padding": {
+        "left": 20,
+        "top": 20,
+        "right": 20,
+        "bottom": 20
+      },
+      "decoration": {
+        "color": "#303F9F",
+        "borderRadius": 16
+      },
       "child": {
-        "type": "Container",
-        "width": 320,
-        "height": 200,
-        "padding": {
-          "left": 20,
-          "top": 20,
-          "right": 20,
-          "bottom": 20
-        },
-        "decoration": {
-          "color": "0xFF303F9F",
-          "borderRadius": 16
-        },
-        "child": {
-          "type": "Column",
-          "mainAxisAlignment": "spaceBetween",
-          "crossAxisAlignment": "start",
-          "children": [
-            {
-              "type": "Text",
-              "data": "CREDIT CARD",
-              "style": {
-                "color": "0xFFBDBDBD",
-                "fontSize": 16,
-                "fontWeight": "bold"
-              }
-            },
-            {
-              "type": "Text",
-              "data": "1234 5678 9012 3456",
-              "style": {
-                "color": "0xFFFFFFFF",
-                "fontSize": 22,
-                "letterSpacing": 2
-              }
-            },
-            {
-              "type": "Row",
-              "mainAxisAlignment": "spaceBetween",
-              "children": [
-                {
-                  "type": "Column",
-                  "crossAxisAlignment": "start",
-                  "children": [
-                    {
-                      "type": "Text",
-                      "data": "CARDHOLDER",
-                      "style": {
-                        "color": "0xFFB0BEC5",
-                        "fontSize": 12
-                      }
-                    },
-                    {
-                      "type": "Text",
-                      "data": "JANE DOE",
-                      "style": {
-                        "color": "0xFFFFFFFF",
-                        "fontSize": 14
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "Column",
-                  "crossAxisAlignment": "start",
-                  "children": [
-                    {
-                      "type": "Text",
-                      "data": "EXPIRES",
-                      "style": {
-                        "color": "0xFFB0BEC5",
-                        "fontSize": 12
-                      }
-                    },
-                    {
-                      "type": "Text",
-                      "data": "08/27",
-                      "style": {
-                        "color": "0xFFFFFFFF",
-                        "fontSize": 14
-                      }
-                    }
-                  ]
-                }
-              ]
+        "type": "Column",
+        "mainAxisAlignment": "spaceBetween",
+        "crossAxisAlignment": "start",
+        "children": [
+          {
+            "type": "Text",
+            "data": "CREDIT CARD",
+            "style": {
+              "color": "#BDBDBD",
+              "fontSize": 16,
+              "fontWeight": "FontWeight.bold"
             }
-          ]
-        }
+          },
+          {
+            "type": "Text",
+            "data": "1234 5678 9012 3456",
+            "style": {
+              "color": "#FFFFFF",
+              "fontSize": 22,
+              "letterSpacing": 2
+            }
+          },
+          {
+            "type": "Row",
+            "mainAxisAlignment": "spaceBetween",
+            "children": [
+              {
+                "type": "Column",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Text",
+                    "data": "CARDHOLDER",
+                    "style": {
+                      "color": "#B0BEC5",
+                      "fontSize": 12
+                    }
+                  },
+                  {
+                    "type": "Text",
+                    "data": "JANE DOE",
+                    "style": {
+                      "color": "#FFFFFF",
+                      "fontSize": 14
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "crossAxisAlignment": "start",
+                "children": [
+                  {
+                    "type": "Text",
+                    "data": "EXPIRES",
+                    "style": {
+                      "color": "#B0BEC5",
+                      "fontSize": 12
+                    }
+                  },
+                  {
+                    "type": "Text",
+                    "data": "08/27",
+                    "style": {
+                      "color": "#FFFFFF",
+                      "fontSize": 14
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   }
-  
+}
