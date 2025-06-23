@@ -2,7 +2,10 @@
   "type": "Scaffold",
   "appBar": {
     "type": "AppBar",
-    "title": "My Credit Card",
+    "title": {
+      "type": "Text",
+      "data": "My Credit Card"
+    },
     "backgroundColor": "#9FA8DA"
   },
   "body": {
