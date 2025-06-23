@@ -1,93 +1,260 @@
 {
-  "type": "center",
-  "child": {
-    "type": "container",
-    "width": 320,
-    "height": 200,
-    "padding": {
-      "left": 20,
-      "top": 20,
-      "right": 20,
-      "bottom": 20
+  "type": "scaffold",
+  "appBar": {
+    "type": "appBar",
+    "title": {
+      "type": "text",
+      "data": "Text Field",
+      "style": {
+        "color": "#ffffff",
+        "fontSize": 21
+      }
     },
-    "decoration": {
-      "color": "#303F9F",
-      "borderRadius": 16
-    },
+    "backgroundColor": "#4D00E9"
+  },
+  "backgroundColor": "#ffffff",
+  "body": {
+    "type": "singleChildScrollView",
     "child": {
-      "type": "column",
-      "mainAxisAlignment": "spaceBetween",
-      "crossAxisAlignment": "start",
-      "children": [
-        {
-          "type": "test",
-          "data": "CREDIT CARD",
-          "style": {
-            "color": "#BDBDBD",
-            "fontSize": 16,
-            "fontWeight": "bold"
-          }
-        },
-        {
-          "type": "test",
-          "data": "1234 5678 9012 3456",
-          "style": {
-            "color": "#FFFFFF",
-            "fontSize": 22,
-            "letterSpacing": 2
-          }
-        },
-        {
-          "type": "row",
-          "mainAxisAlignment": "spaceBetween",
-          "children": [
-            {
-              "type": "column",
-              "crossAxisAlignment": "start",
-              "children": [
-                {
-                  "type": "text",
-                  "data": "CARDHOLDER",
-                  "style": {
-                    "color": "#B0BEC5",
-                    "fontSize": 12
-                  }
-                },
-                {
-                  "type": "text",
-                  "data": "JANE DOE",
-                  "style": {
-                    "color": "#FFFFFF",
-                    "fontSize": 14
-                  }
-                }
-              ]
+      "type": "container",
+      "padding": {
+        "left": 12,
+        "right": 12,
+        "top": 12,
+        "bottom": 12
+      },
+      "child": {
+        "type": "column",
+        "mainAxisAlignment": "center",
+        "crossAxisAlignment": "center",
+        "children": [
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "textField",
+            "maxLines": 1,
+            "keyboardType": "text",
+            "textInputAction": "done",
+            "textAlign": "start",
+            "textCapitalization": "none",
+            "textDirection": "ltr",
+            "textAlignVertical": "top",
+            "obscureText": false,
+            "cursorColor": "#FC3F1B",
+            "style": {
+              "color": "#000000"
             },
-            {
-              "type": "column",
-              "crossAxisAlignment": "start",
-              "children": [
-                {
-                  "type": "text",
-                  "data": "EXPIRES",
-                  "style": {
-                    "color": "#B0BEC5",
-                    "fontSize": 12
-                  }
+            "decoration": {
+              "hintText": "What do people call you?",
+              "filled": true,
+              "icon": {
+                "type": "icon",
+                "iconType": "cupertino",
+                "icon": "person_solid",
+                "size": 24
+              },
+              "hintStyle": {
+                "color": "#797979"
+              },
+              "labelText": "Name*",
+              "fillColor": "#F2F2F2"
+            },
+            "readOnly": false,
+            "enabled": true
+          },
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "textField",
+            "maxLines": 1,
+            "keyboardType": "text",
+            "textInputAction": "done",
+            "textAlign": "start",
+            "textCapitalization": "none",
+            "textDirection": "ltr",
+            "textAlignVertical": "top",
+            "obscureText": false,
+            "cursorColor": "#FC3F1B",
+            "style": {
+              "color": "#000000"
+            },
+            "decoration": {
+              "hintText": "Where can we reach you?",
+              "filled": true,
+              "icon": {
+                "type": "icon",
+                "iconType": "cupertino",
+                "icon": "phone_solid",
+                "size": 24
+              },
+              "hintStyle": {
+                "color": "#797979"
+              },
+              "labelText": "Phone number*",
+              "fillColor": "#F2F2F2"
+            },
+            "readOnly": false,
+            "enabled": true
+          },
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "textField",
+            "maxLines": 1,
+            "keyboardType": "text",
+            "textInputAction": "done",
+            "textAlign": "start",
+            "textCapitalization": "none",
+            "textDirection": "ltr",
+            "textAlignVertical": "top",
+            "obscureText": false,
+            "cursorColor": "#FC3F1B",
+            "style": {
+              "color": "#000000"
+            },
+            "decoration": {
+              "hintText": "Your email address",
+              "filled": true,
+              "icon": {
+                "type": "icon",
+                "iconType": "material",
+                "icon": "email",
+                "size": 24
+              },
+              "hintStyle": {
+                "color": "#797979"
+              },
+              "labelText": "Email",
+              "fillColor": "#F2F2F2"
+            },
+            "readOnly": false,
+            "enabled": true
+          },
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "sizedBox",
+            "height": 100,
+            "child": {
+              "type": "textField",
+              "expands": true,
+              "cursorColor": "#FC3F1B",
+              "style": {
+                "color": "#000000"
+              },
+              "decoration": {
+                "filled": true,
+                "hintStyle": {
+                  "color": "#797979"
                 },
-                {
-                  "type": "text",
-                  "data": "08/27",
-                  "style": {
-                    "color": "#FFFFFF",
-                    "fontSize": 14
-                  }
-                }
-              ]
+                "labelText": "Life story",
+                "fillColor": "#F2F2F2"
+              },
+              "readOnly": false,
+              "enabled": true
             }
-          ]
-        }
-      ]
+          },
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "textField",
+            "maxLines": 1,
+            "keyboardType": "text",
+            "textInputAction": "done",
+            "textAlign": "start",
+            "textCapitalization": "none",
+            "textDirection": "ltr",
+            "textAlignVertical": "top",
+            "obscureText": true,
+            "cursorColor": "#FC3F1B",
+            "style": {
+              "color": "#000000"
+            },
+            "decoration": {
+              "filled": true,
+              "suffixIcon": {
+                "type": "icon",
+                "iconType": "cupertino",
+                "icon": "eye",
+                "size": 24
+              },
+              "hintStyle": {
+                "color": "#797979"
+              },
+              "labelText": "Password*",
+              "fillColor": "#F2F2F2"
+            },
+            "readOnly": false,
+            "enabled": true
+          },
+          {
+            "type": "sizedBox",
+            "height": 24
+          },
+          {
+            "type": "textField",
+            "maxLines": 1,
+            "keyboardType": "text",
+            "textInputAction": "done",
+            "textAlign": "start",
+            "textCapitalization": "none",
+            "textDirection": "ltr",
+            "textAlignVertical": "top",
+            "obscureText": true,
+            "cursorColor": "#FC3F1B",
+            "style": {
+              "color": "#000000"
+            },
+            "decoration": {
+              "filled": true,
+              "suffixIcon": {
+                "type": "icon",
+                "iconType": "cupertino",
+                "icon": "eye",
+                "size": 24
+              },
+              "hintStyle": {
+                "color": "#797979"
+              },
+              "labelText": "Re-type password*",
+              "fillColor": "#F2F2F2"
+            },
+            "readOnly": false,
+            "enabled": true
+          },
+          {
+            "type": "sizedBox",
+            "height": 48
+          },
+          {
+            "type": "elevatedButton",
+            "child": {
+              "type": "text",
+              "data": "Submit"
+            },
+            "style": {
+              "backgroundColor": "#4D00E9",
+              "padding": {
+                "top": 8,
+                "left": 12,
+                "right": 12,
+                "bottom": 8
+              }
+            },
+            "onPressed": {}
+          }
+        ]
+      }
     }
   }
 }
