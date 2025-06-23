@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:module_b/views/credit.dart';
+import 'package:module_b/module_b_screen.dart';
 
 void main() {
   runApp(const MyApp());
